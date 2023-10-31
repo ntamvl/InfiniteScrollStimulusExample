@@ -173,6 +173,13 @@ Migrate database and seed data
 rails db:migrate db:seed
 ```
 
+Currently I'm running many apps, Rails app will run on default port 3000, so I modify `Procfile.dev` to run different port to avoid confict, I modify like this:
+```
+web: env RUBY_DEBUG_OPEN=true bin/rails server -p 4001
+js: yarn build --watch
+css: yarn watch:css
+```
+
 **Run app**
 ```bash
 ./bin/dev
