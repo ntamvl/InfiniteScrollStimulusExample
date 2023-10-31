@@ -1,0 +1,20 @@
+<p style="color: green"><%= notice %></p>
+<h1>Posts</h1>
+<%= link_to "New post", new_post_path %>
+<div data-controller="infinitive-pagination"
+  data-infinitive-pagination-url-value="<%= posts_url %>"
+  data-infinitive-pagination-page-value="1"
+  data-infinitive-pagination-scroll-value="false"
+>
+  <div id="posts">
+    <% @posts.each do |post| %>
+      <%= render post %>
+      <p>
+        <%= link_to "Show this post", post %>
+      </p>
+    <% end %>
+  </div>
+  <button data-action="click->infinitive-pagination#handleLoadMoreButton" data-infinitive-pagination-target="loadMoreButton">
+    Load more
+  </button>
+</div>
