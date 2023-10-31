@@ -180,6 +180,6 @@ rails db:migrate db:seed
 
 Open your browser and goto `http://localhost:4001/posts`
 
-Enjoy!!! :D :) :P
+Enjoy!!! :smile:
 
 Tam Nguyen *(Oct 31, 2023)*
