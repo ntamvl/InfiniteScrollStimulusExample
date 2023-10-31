@@ -170,5 +170,4 @@ Open your browser and goto `http://localhost:4001/posts`
 Enjoy!!!
 Thanks for your reading, hope it helps you in a way. Happy coding!
 
-Tam Nguyen
-Oct 31, 2023
+Tam Nguyen *(Oct 31, 2023)*
