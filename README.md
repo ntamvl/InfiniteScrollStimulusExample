@@ -78,7 +78,7 @@ export default class extends Controller {
   }
 
   handleScroll() {
-    const reachEndPage = this.hasReachEndPage2()
+    const reachEndPage = this.hasReachEndPage()
     if (reachEndPage && !this.hasLastPageTarget) {
       this.loadMore()
     } else {
