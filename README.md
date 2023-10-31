@@ -19,6 +19,8 @@ References:
 ## Setup Rails project
 ```bash
 rails new InfiniteScrollStimulusExample  -c=bootstrap -j=esbuild
+
+cd InfiniteScrollStimulusExample
 bundle add kaminari faker
 yarn add @rails/request.js
 
