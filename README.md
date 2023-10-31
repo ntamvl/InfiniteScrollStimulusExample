@@ -161,6 +161,13 @@ export default class extends Controller {
 <% end %>
 ```
 
+Modify `db/seeds.rb`
+```rb
+# db/seeds.rb
+500.times { Post.create title: Faker::Name.name, body: Faker::Lorem.paragraph(sentence_count: 2) }
+
+```
+
 Migrate database and seed data
 ```bash
 rails db:migrate db:seed
