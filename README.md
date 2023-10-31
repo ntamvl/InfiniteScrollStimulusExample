@@ -3,6 +3,7 @@
 Infinite scroll is a pagination mechanism where whenever the user reaches the end of the scroll area more content is loaded till there are no more content to load.
 
 **Introduction**
+
 Hotwire is a new set of tools extracted from Hey by Basecamp. It uses Asynchronous HTML and HTTP (also known as AHAH) to render partial updates to the DOM without full browser reload. You build your servers with any language of your choice and let Turbo handle the partial updates for you. Which makes your application to have a speed of an SPA while having the benefits of server-rendered partials.
 
 HOTWire is not a single tool, but three tools that allow you to build super fast apps while not having to write tons of client-side JavaScript to manage the updates. The tools within HOTWire are
