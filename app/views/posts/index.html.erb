@@ -1,17 +1,18 @@
 <p style="color: green"><%= notice %></p>
-<h1>Posts</h1>
-<%= link_to "New post", new_post_path %>
+<div class="row d-flex align-items-center">
+  <div class="col-6">
+    <h1 class="p-0 m-0">Posts</h1>
+  </div>
+  <div class="col-6 text-end">
+    <%= link_to "New post", new_post_path, class: "btn btn-primary" %>
+  </div>
+</div>
 <div data-controller="infinitive-pagination"
   data-infinitive-pagination-url-value="<%= posts_url %>"
   data-infinitive-pagination-page-value="1"
 >
   <div id="posts">
-    <% @posts.each do |post| %>
-      <%= render post %>
-      <p>
-        <%= link_to "Show this post", post %>
-      </p>
-    <% end %>
+    <%= render @posts %>
   </div>
   <button data-action="click->infinitive-pagination#handleLoadMoreButton" data-infinitive-pagination-target="loadMoreButton">
     Load more

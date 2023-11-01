@@ -1,8 +1,7 @@
 <div id="<%= dom_id post %>" class="card my-2">
   <div class="card-body">
     <p>
-      <strong>Title:</strong>
-      <%= post.title %>
+      <%= link_to post.title, post %>
     </p>
     <p>
       <strong>Body:</strong>
