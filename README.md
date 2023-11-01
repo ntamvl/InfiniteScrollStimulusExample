@@ -135,7 +135,6 @@ export default class extends Controller {
 <div data-controller="infinitive-pagination"
   data-infinitive-pagination-url-value="<%= posts_url %>"
   data-infinitive-pagination-page-value="1"
-  data-infinitive-pagination-scroll-value="false"
 >
   <div id="posts">
     <% @posts.each do |post| %>
