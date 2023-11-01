@@ -163,8 +163,9 @@ export default class extends Controller {
 Modify `db/seeds.rb`
 ```rb
 # db/seeds.rb
-500.times { Post.create title: Faker::Name.name, body: Faker::Lorem.paragraph(sentence_count: 2) }
-
+500.times do
+  Post.create title: Faker::Movie.title, body: Faker::Quote.famous_last_words
+end
 ```
 
 Migrate database and seed data
