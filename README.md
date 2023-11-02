@@ -189,4 +189,4 @@ Open your browser and goto `http://localhost:4001/posts`
 
 Enjoy!!! :smile:
 
-Tam Nguyen *(Oct 31, 2023)*
+If you have any questions, don't hesitate to contact me via X (Twitter) https://twitter.com/nguyentamvn or Facebook https://www.facebook.com/nguyentamvinhlong
