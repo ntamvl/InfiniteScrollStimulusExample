@@ -189,5 +189,5 @@ Open your browser and goto `http://localhost:4001/posts`
 
 Enjoy!!! :smile:
 
-If you have any questions, don't hesitate to contact me via X (Twitter) [@nguyentamvn](https://twitter.com/nguyentamvn) or Facebook [@nguyentamvinhlong](https://www.facebook.com/nguyentamvinhlong
+If you have any questions, please do not hesitate to contact me via X (Twitter) [@nguyentamvn](https://twitter.com/nguyentamvn) or Facebook [@nguyentamvinhlong](https://www.facebook.com/nguyentamvinhlong
 )
