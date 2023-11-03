@@ -110,6 +110,10 @@ export default class extends Controller {
     this.loading = true
     this.pageValue += 1
     const url = new URL(this.urlValue)
+    const currentSearchParams = new URLSearchParams(window.location.search)
+    for (const [key, value] of currentSearchParams) {
+      url.searchParams.set(key, value)
+    }
     url.searchParams.set('page', this.pageValue)
     await get(url.toString(), { responseKind: 'turbo-stream' })
     this.loading = false
